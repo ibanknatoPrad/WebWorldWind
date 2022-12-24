@@ -3,6 +3,7 @@
 # Web WorldWind
 
 <img src="https://raw.githubusercontent.com/aibolem/WebWorldWind/develop/bay%C2%B5%E2%82%BD.png" />
+# S©reenSchoot of Bay @©olheti_w 
  
 Web WorldWind 0.11.0 is now available on GitHub. The summary of changes is as follows:
 
