@@ -535,25 +535,29 @@
                 <name>Sentinel-2 Image 6</name>
                 <Icon>
                     <href>data/S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32UQV.tif.png</href>
+				<viewBoundScale>0.75</viewBoundScale>
                 </Icon>
-                <LatLonBox>
-                    <north>49.619610113671506</north>
-                    <south>48.58834878003898</south>
-                    <east>13.285045642949315</east>
-                    <west>11.714086657726819</west>
-                </LatLonBox>
+		<LatLonBox>
+			<north>47.92772734947202</north>
+			<south>37.71078970827494</south>
+			<east>50.06638570573541</east>
+			<west>36.25692331597043</west>
+			<rotation>31.98099145390719</rotation>
+		</LatLonBox>
                 <TimeStamp>
                     <when>2015-08-13T10:16:57</when>
                 </TimeStamp>
                 <Region>
-                    <LatLonAltBox>
-                        <north>49.619610113671506</north>
-                        <south>48.58834878003898</south>
-                        <east>13.285045642949315</east>
-                        <west>11.714086657726819</west>
+		<LatLonBox>
+			<north>47.92772734947202</north>
+			<south>37.71078970827494</south>
+			<east>50.06638570573541</east>
+			<west>36.25692331597043</west>
+			<rotation>31.98099145390719</rotation>
+		</LatLonBox>
                         <minAltitude>0</minAltitude>
                         <maxAltitude>1000000</maxAltitude>
-                        <altitudeMode>clampToGround</altitudeMode>
+                        <altitudeMode>clampToSeaFloor</altitudeMode>
                     </LatLonAltBox>
                 </Region>
             </GroundOverlay>
@@ -986,20 +990,5 @@
                 </Placemark>
             </Folder>
         </Folder>
-			<GroundOverlay>
-		<name>ISO_CA_OPER_N.tif.png</name>
-		<color>80ffffff</color>
-		<Icon>data/ISO_CA_OPER_N.tif.png</href>
-			<refreshMode>onExpire</refreshMode>
-			<viewBoundScale>0.75</viewBoundScale>
-		</Icon>
-		<LatLonBox>
-			<north>47.92772734947202</north>
-			<south>37.71078970827494</south>
-			<east>50.06638570573541</east>
-			<west>36.25692331597043</west>
-			<rotation>31.98099145390719</rotation>
-		</LatLonBox>
-	</GroundOverlay>
     </Document>
 </kml>
