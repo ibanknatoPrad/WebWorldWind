@@ -71,7 +71,14 @@
     </div>
     <div class="row">
         <div class="col-sm-3">
-
+            <h4>Projection</h4>
+            <div class="dropdown" id="projectionDropdown">
+            </div>
+            <br>
+            <h4>Layers</h4>
+            <div class="list-group" id="layerList">
+            </div>
+            <br>
             <h4>Destination</h4>
             <div class="input-group" id="searchBox">
                 <input type="text" class="form-control" placeholder="GoTo" id="searchText"/>
@@ -83,6 +90,13 @@
             </div>
             <br>
             <h4>KML Elements</h4>
+                        <h5>Change surface transparency</h5>
+            <div id="transparency-slider" style="height:11px;width:200px"></div>
+            <p>
+                <label>Opacity:</label>
+                <input type="text" id="transparency" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            </div>
             <br>
             <p>
                 The list below shows all elements parsed from the KML file.
