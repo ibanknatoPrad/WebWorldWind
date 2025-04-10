@@ -43,6 +43,7 @@ requirejs(['./WorldWindShim',
         var layers = [
             // Imagery layers.
             {layer: new WorldWind.BMNGLayer(), enabled: true},
+            {layer: new WorldWind.BMNGLandsatLayer(), enabled: true},
             {layer: new WorldWind.BingAerialWithLabelsLayer(null), enabled: true},
             // Add atmosphere layer on top of all base layers.
             {layer: new WorldWind.AtmosphereLayer(), enabled: true},
