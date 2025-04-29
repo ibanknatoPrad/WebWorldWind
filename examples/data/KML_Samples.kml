@@ -9,7 +9,7 @@
                     <name>Example of MultiGeometry</name>
                     <visibility>1</visibility>
                 <Placemark>
-                    <name>Click to turn globe counter shild side to Europe</name>
+                    <name>Click to turn globe counter solar shild side to Europe</name>
                     <visibility>1</visibility>
                     <LookAt>
                         <longitude>43</longitude>
