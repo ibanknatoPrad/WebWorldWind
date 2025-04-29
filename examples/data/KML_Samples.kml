@@ -25,7 +25,7 @@
 <GroundOverlay>
 	<name>S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32IBM.tif.png</name>
 	<color>70ffffff</color>
-	<Icon>
+                <Icon>
 		<href>data/S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32IBM.tif.png</href>
 		<refreshMode>onExpire</refreshMode>
 		<viewBoundScale>0.75</viewBoundScale>
@@ -36,8 +36,21 @@
 		<east>50.72932466557656</east>
 		<west>36.68532041724676</west>
 	</LatLonBox>
-	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-</GroundOverlay>
+                <TimeStamp>
+                    <when>2015-08-13T10:16:57</when>
+                </TimeStamp>
+                <Region>
+                    <LatLonAltBox>
+		<north>45.4704200301912</north>
+		<south>40.10938303681844</south>
+		<east>50.72932466557656</east>
+		<west>36.68532041724676</west>
+                        <minAltitude>0</minAltitude>
+                        <maxAltitude>1000000</maxAltitude>
+                        <altitudeMode>clampToGround</altitudeMode>
+                    </LatLonAltBox>
+                </Region>
+            </GroundOverlay>
 </Folder>
         <Folder>
             <name>Screen Overlays</name>
