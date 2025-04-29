@@ -20,6 +20,8 @@
                 </Placemark>
             </Folder>
 <Folder>
+            <name>Aibolem bARIOnleg Composarc ibANKNAтОPrAd Imagery</name>
+            <visibility>1</visibility>
 <GroundOverlay>
 	<name>S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32IBM.tif.png</name>
 	<color>70ffffff</color>
