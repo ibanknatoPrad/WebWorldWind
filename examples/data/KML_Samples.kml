@@ -15,7 +15,7 @@
                         <altitude>200000</altitude>
                         <heading>0</heading>
                         <tilt>45</tilt>
-                        <range>500</range>
+                        <range>50000</range>
                     </LookAt>
                     <styleUrl>#transYellowPoly</styleUrl>
                     <MultiGeometry>
