@@ -5,7 +5,292 @@
         <visibility>1</visibility>
         <open>1</open>
         <description>Unleash your creativity with the help of these examples!</description>
-
+        <Folder>
+            <name>Placemarks</name>
+            <visibility>1</visibility>
+            <description>These are just some of the different kinds of placemarks with
+                which you can mark your favorite places
+            </description>
+            <LookAt>
+                <longitude>-122.0839597145766</longitude>
+                <latitude>37.42222904525232</latitude>
+                <altitude>0</altitude>
+                <heading>-148.4122922628044</heading>
+                <tilt>40.5575073395506</tilt>
+                <range>500.6566641072245</range>
+            </LookAt>
+            <Placemark>
+                <name>Simple placemark</name>
+                <visibility>1</visibility>
+                <description>Attached to the ground. Intelligently places itself at the
+                    height of the underlying terrain.
+                </description>
+                <Point>
+                    <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Floating placemark</name>
+                <visibility>1</visibility>
+                <description>Floats a defined distance above the ground.</description>
+                <LookAt>
+                    <longitude>-122.0839597145766</longitude>
+                    <latitude>37.42222904525232</latitude>
+                    <altitude>0</altitude>
+                    <heading>-148.4122922628044</heading>
+                    <tilt>40.5575073395506</tilt>
+                    <range>500.6566641072245</range>
+                </LookAt>
+                <styleUrl>#styleWithHighlight</styleUrl>
+                <Point>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>-122.084075,37.4220033612141,50</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Extruded placemark</name>
+                <visibility>1</visibility>
+                <description>Tethered to the ground by a customizable
+                    &quot;tail&quot;</description>
+                <LookAt>
+                    <longitude>-122.0845787421525</longitude>
+                    <latitude>37.42215078737763</latitude>
+                    <altitude>0</altitude>
+                    <heading>-148.4126684946234</heading>
+                    <tilt>40.55750733918048</tilt>
+                    <range>365.2646606980322</range>
+                </LookAt>
+                <styleUrl>#globeIcon</styleUrl>
+                <Point>
+                    <extrude>1</extrude>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>-122.0857667006183,37.42156927867553,50</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Paths</name>
+            <visibility>1</visibility>
+            <description>Examples of paths. Note that the tessellate tag is by default
+                set to 0. If you want to create tessellated lines, they must be authored
+                (or edited) directly in KML.
+            </description>
+            <Placemark>
+                <name>Tessellated</name>
+                <visibility>1</visibility>
+                <description>
+                    <![CDATA[If the <tessellate> tag has a value of 1, the line will contour to the underlying terrain]]></description>
+                <LookAt>
+                    <longitude>-112.0822680013139</longitude>
+                    <latitude>36.09825589333556</latitude>
+                    <altitude>0</altitude>
+                    <heading>103.8120432044965</heading>
+                    <tilt>62.04855796276328</tilt>
+                    <range>2889.145007690472</range>
+                </LookAt>
+                <LineString>
+                    <tessellate>1</tessellate>
+                    <coordinates>-112.0814237830345,36.10677870477137,0
+                        -112.0870267752693,36.0905099328766,0
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Untessellated</name>
+                <visibility>1</visibility>
+                <description>
+                    <![CDATA[If the <tessellate> tag has a value of 0, the line follow a simple straight-line path from point to point]]></description>
+                <LookAt>
+                    <longitude>-112.0822680013139</longitude>
+                    <latitude>36.09825589333556</latitude>
+                    <altitude>0</altitude>
+                    <heading>103.8120432044965</heading>
+                    <tilt>62.04855796276328</tilt>
+                    <range>2889.145007690472</range>
+                </LookAt>
+                <LineString>
+                    <tessellate>0</tessellate>
+                    <coordinates>-112.080622229595,36.10673460007995,0
+                        -112.085242575315,36.09049598612422,0
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Absolute</name>
+                <visibility>1</visibility>
+                <description>Transparent purple line</description>
+                <LookAt>
+                    <longitude>-112.2719329043177</longitude>
+                    <latitude>36.08890633450894</latitude>
+                    <altitude>0</altitude>
+                    <heading>-106.8161545998597</heading>
+                    <tilt>44.60763714063257</tilt>
+                    <range>2569.386744398339</range>
+                </LookAt>
+                <styleUrl>#transPurpleLineGreenPoly</styleUrl>
+                <LineString>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-112.265654928602,36.09447672602546,2357
+                        -112.2660384528238,36.09342608838671,2357
+                        -112.2668139013453,36.09251058776881,2357
+                        -112.2677826834445,36.09189827357996,2357
+                        -112.2688557510952,36.0913137941187,2357
+                        -112.2694810717219,36.0903677207521,2357
+                        -112.2695268555611,36.08932171487285,2357
+                        -112.2690144567276,36.08850916060472,2357
+                        -112.2681528815339,36.08753813597956,2357
+                        -112.2670588176031,36.08682685262568,2357
+                        -112.2657374587321,36.08646312301303,2357
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Absolute Extruded</name>
+                <visibility>1</visibility>
+                <description>Transparent green wall with yellow outlines</description>
+                <LookAt>
+                    <longitude>-112.2643334742529</longitude>
+                    <latitude>36.08563154742419</latitude>
+                    <altitude>0</altitude>
+                    <heading>-125.7518698668815</heading>
+                    <tilt>44.61038665812578</tilt>
+                    <range>4451.842204068102</range>
+                </LookAt>
+                <styleUrl>#yellowLineGreenPoly</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>absolute</altitudeMode>
+                    <coordinates>-112.2550785337791,36.07954952145647,2357
+                        -112.2549277039738,36.08117083492122,2357
+                        -112.2552505069063,36.08260761307279,2357
+                        -112.2564540158376,36.08395660588506,2357
+                        -112.2580238976449,36.08511401044813,2357
+                        -112.2595218489022,36.08584355239394,2357
+                        -112.2608216347552,36.08612634548589,2357
+                        -112.262073428656,36.08626019085147,2357
+                        -112.2633204928495,36.08621519860091,2357
+                        -112.2644963846444,36.08627897945274,2357
+                        -112.2656969554589,36.08649599090644,2357
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Relative</name>
+                <visibility>1</visibility>
+                <description>Black line (10 pixels wide), height tracks terrain</description>
+                <LookAt>
+                    <longitude>-112.2580438551384</longitude>
+                    <latitude>36.1072674824385</latitude>
+                    <altitude>0</altitude>
+                    <heading>4.947421249553717</heading>
+                    <tilt>44.61324882043339</tilt>
+                    <range>2927.61105910266</range>
+                </LookAt>
+                <styleUrl>#thickBlackLine</styleUrl>
+                <LineString>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>-112.2532845153347,36.09886943729116,645
+                        -112.2540466121145,36.09919570465255,645
+                        -112.254734666947,36.09984998366178,645
+                        -112.255493345654,36.10051310621746,645
+                        -112.2563157098468,36.10108441943419,645
+                        -112.2568033076439,36.10159722088088,645
+                        -112.257494011321,36.10204323542867,645
+                        -112.2584106072308,36.10229131995655,645
+                        -112.2596588987972,36.10240001286358,645
+                        -112.2610581199487,36.10213176873407,645
+                        -112.2626285262793,36.10157011437219,645
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Clamp to ground</name>
+                <visibility>1</visibility>
+                <description>Black line (10 pixels wide), height tracks terrain</description>
+                <LookAt>
+                    <longitude>-112.2580438551384</longitude>
+                    <latitude>37.1072674824385</latitude>
+                    <altitude>0</altitude>
+                    <heading>4.947421249553717</heading>
+                    <tilt>44.61324882043339</tilt>
+                    <range>2927.61105910266</range>
+                </LookAt>
+                <styleUrl>#thickBlackLine</styleUrl>
+                <LineString>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <coordinates>-112.2532845153347,37.09886943729116
+                        -112.2540466121145,37.09919570465255
+                        -112.254734666947,37.09984998366178
+                        -112.255493345654,37.10051310621746
+                        -112.2563157098468,37.10108441943419
+                        -112.2568033076439,37.10159722088088
+                        -112.257494011321,37.10204323542867
+                        -112.2584106072308,37.10229131995655
+                        -112.2596588987972,37.10240001286358
+                        -112.2610581199487,37.10213176873407
+                        -112.2626285262793,37.10157011437219
+                    </coordinates>
+                </LineString>
+            </Placemark>
+            <Placemark>
+                <name>Relative Extruded</name>
+                <visibility>1</visibility>
+                <description>Opaque blue walls with red outline, height tracks terrain</description>
+                <LookAt>
+                    <longitude>-112.2683594333433</longitude>
+                    <latitude>36.09884362144909</latitude>
+                    <altitude>0</altitude>
+                    <heading>-72.24271551768405</heading>
+                    <tilt>44.60855445139561</tilt>
+                    <range>2184.193522571467</range>
+                </LookAt>
+                <styleUrl>#redLineBluePoly</styleUrl>
+                <LineString>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <coordinates>-112.2656634181359,36.09445214722695,630
+                        -112.2652238941097,36.09520916122063,630
+                        -112.2645079986395,36.09580763864907,630
+                        -112.2638827428817,36.09628572284063,630
+                        -112.2635746835406,36.09679275951239,630
+                        -112.2635711822407,36.09740038871899,630
+                        -112.2640296531825,36.09804913435539,630
+                        -112.264327720538,36.09880337400301,630
+                        -112.2642436562271,36.09963644790288,630
+                        -112.2639148687042,36.10055381117246,630
+                        -112.2626894973474,36.10149062823369,630
+                    </coordinates>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Ground Overlays</name>
+            <description>Examples of ground overlays</description>
+            <NetworkLink>
+                <name>Etna</name>
+                <Link>
+                    <href>data/etna.kmz</href>
+                    <refreshMode>onInterval</refreshMode>
+                    <refreshInterval>10</refreshInterval>
+                </Link>
+                <Region>
+                    <LatLonAltBox>
+                        <north>37.91904192681665</north>
+                        <south>37.46543388598137</south>
+                        <east>15.35832653742206</east>
+                        <west>14.60128369746704</west>
+                        <minAltitude>0</minAltitude>
+                        <maxAltitude>1000000</maxAltitude>
+                        <altitudeMode>clampToGround</altitudeMode>
+                    </LatLonAltBox>
+                </Region>
+            </NetworkLink>
+        </Folder>
         <Folder>
             <name>Sentinel-2 Imagery</name>
             <visibility>1</visibility>
