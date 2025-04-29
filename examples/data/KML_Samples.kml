@@ -6,6 +6,8 @@
         <open>1</open>
         <description>Unleash your creativity with the help of these examples!</description>
 <Folder>
+                    <name>Example of MultiGeometry</name>
+                    <visibility>1</visibility>
                 <Placemark>
                     <name>Click to turn globe counter shild side to Europe</name>
                     <visibility>1</visibility>
@@ -23,7 +25,7 @@
             <name>Aibolem bARIOnleg Composarc ibANKNAтОPrAd Imagery</name>
             <visibility>1</visibility>
 <GroundOverlay>
-	<name>S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32IBM.tif.png</name>
+	<name>GroundOverlayISOCAUNUC_by_Irakli_bARdavelid3e_m.l.</name>
 	<color>70ffffff</color>
                 <Icon>
 		<href>data/S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32IBM.tif.png</href>
