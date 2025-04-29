@@ -23,14 +23,7 @@
                             <extrude>1</extrude>
                             <altitudeMode>relativeToGround</altitudeMode>
                             <outerBoundaryIs>
-                                 /* <LinearRing>
-                                    <coordinates>
-                                    17,52,1000
-                                    18,52,1000
-                                    18,51,1000
-                                    17,51,1000
-                                    17,52,1000
-                                    </coordinates> */
+
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
