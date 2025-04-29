@@ -337,27 +337,7 @@
                 <size x="0" y="0" xunits="fraction" yunits="fraction"/>
             </ScreenOverlay>
         </Folder>
-<Folder>
-                <Placemark>
-                    <name>Absolute Extruded</name>
-                    <visibility>1</visibility>
-                    <styleUrl>#transRedPoly</styleUrl>
-                    <Polygon>
-                        <extrude>1</extrude>
-                        <tessellate>1</tessellate>
-                        <altitudeMode>absolute</altitudeMode>
-                        <outerBoundaryIs>
-                            <LinearRing>
-                                <coordinates>-112.3396586818843,36.14637618647505,1784
-                                    -112.3380597654315,36.14531751871353,1784
-                                    -112.3368254237788,36.14659596244607,1784
-                                    -112.3384555043203,36.14762621763982,1784
-                                    -112.3396586818843,36.14637618647505,1784
-                                </coordinates>
-                            </LinearRing>
-                        </outerBoundaryIs>
-                    </Polygon>
-                </Placemark>
+
                 <Placemark>
                     <name>Relative</name>
                     <visibility>1</visibility>
