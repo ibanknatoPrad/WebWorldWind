@@ -28,7 +28,7 @@
 	<name> ← ← Check in ☑ box button of GroundOverlayISOCAUNUC_by_Irakli_bARdavelid3e_m.l.</name>
 	<color>70ffffff</color>
                 <Icon>
-		<href>data/i2sc.png</href>
+		<href>data/i2s_compressed.png</href>
 		<refreshMode>onExpire</refreshMode>
 		<viewBoundScale>0.75</viewBoundScale>
 	</Icon>
